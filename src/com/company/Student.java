@@ -35,10 +35,15 @@ public final class Student extends Person{
     public void sleep() {
         System.out.println("Sleeps not well");
     }
+    public void example(){
+        System.out.println("Example");
+    }
 
     @Override
     public String toString() {
         return super.toString() +" " + gpa;
     }
+
+
 }
 
